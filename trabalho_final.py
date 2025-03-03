@@ -159,7 +159,7 @@ print("Probabilidades salvas em 'probabilidades.txt'")
 
 #Solicite ao usuário que informe as probabilidades que deseja saber entre as variáveis por exemplo P(x1==y, x2==y)
 while True:
-    user_input = input("Informe as variáveis para calcular a probabilidade (ex: x1==y, x2==y) ou 'sair' para terminar: ")
+    user_input = input("Informe as variáveis para calcular a probabilidade (Ex.: x1, x2 ou x1 || x2) ou 'sair' para terminar: ")
     if user_input.lower() == 'sair':
         break
     try:
